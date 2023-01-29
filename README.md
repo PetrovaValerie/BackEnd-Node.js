@@ -24,7 +24,29 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository. Описание:
+    1. Разворачиваем приложение;
+    2. Запуск приложения в режиме разработки;
+    3. Контроллеры, провайдеры (сервисы), @Module, @Controller, @Injectable
+    4. Dependency Injection;
+    5. PostgreSQL. Sequelize. Connecting to the DataBase;
+    6. UserModule. UserService. UserController.
+    7. Конфигурация. development.env, production.env. Переменные окружения
+    8. Sequelize. Модель пользователя. @Table, @Column.
+    9. Запись\Получение. Repository. Работа с БД.
+    10. Postman.
+    11. Документация с API. Swagger.
+    12. Роли пользователя.
+    13. Cвязь между таблицами. Many-to-many. @BelongsToMany, @ForeignKey
+    14. AuthModule. Регистрация. Авторизация. JWT Token.
+    15. Guards. CanActivate. Ограничиваем доступ неавторизованным пользователям.
+    16. RolesGuard. Roles декоратор. Ограничение доступа пользователю без определений роли.
+    17. Выдача ролей. Бан пользователя.
+    18. Pipes. Валидация входных данных. Class-validator. @IsString, @IsEmail, @Length.
+    19. GlobalPipes.
+    20. Посты. One-to-many. @HasMany.
+    21. FileService. Работа с файлами. Раздача статики.
+    22. Docker. Dockerfile. Docker-compose.
 
 ## Installation
 
